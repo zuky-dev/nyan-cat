@@ -74,7 +74,7 @@ function round(min, max) {
 }
 
 $(document).ready(() => {
-    $('#audio').play();
+    $('#audio')[0].play();
     windowWidth = Math.round($(window).width());
     windowHeight = Math.round($(window).height());
     rainbowGenerator();
